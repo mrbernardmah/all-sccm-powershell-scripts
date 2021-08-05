@@ -1,0 +1,1 @@
+[Math]::Round((Get-WmiObject Win32_LogicalDisk -Filter "DeviceID='C:'").FreeSpace/1GB,2)
